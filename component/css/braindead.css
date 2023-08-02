@@ -1,0 +1,49 @@
+.simpleWhiteBox {
+  outline: 2px solid rgb(72, 72, 72);
+  background-color: rgba(26, 26, 26, 0.5);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.simpleWhiteBoxInner {
+  outline: 2px solid rgb(40, 40, 40);
+  background-color: rgba(18, 18, 18, 0.5);
+  border-radius: 20px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.simpleWhiteBoxInnerText {
+  padding-top: 20px;
+  outline: 2px solid rgb(40, 40, 40);
+  background-color: rgba(18, 18, 18, 0.5);
+  border-radius: 20px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.tabbedIn {
+  padding-left: 10px;
+}
+
+i>span[class*="tabbedIn"] {
+  padding-left: 15px;
+}
+
+.scaleDownImg {
+  max-width: 70%;
+  max-height: 70%;
+  width: auto;
+  height: auto;
+}
+
+.scaledDownVid {
+  max-width: 50%;
+  max-height: 50%;
+  width: auto;
+  height: auto;
+}
