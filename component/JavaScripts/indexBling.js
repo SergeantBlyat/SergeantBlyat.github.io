@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   } else {
     // Set the initial delay and delay increment values
     let delay = 0;
-    const delayIncrement = 200;
+    const delayIncrement = 175;
     // Create a single IntersectionObserver for all elements with the 'textFade-in' class
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
