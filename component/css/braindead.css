@@ -59,3 +59,14 @@ i>span[class*="tabbedIn"] {
 .text-left {
   text-align: left;
 }
+
+.tayPfp{
+  max-width: 70%;
+  max-height: 70%;
+  width: 500px;
+  height: 500px;
+}
+
+.tayPfp:hover{
+  content: url(/assets/Images/tay.png);
+}
